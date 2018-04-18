@@ -6,22 +6,22 @@ This can be useful for apps which need you to be at a particular location to acc
 
 This method works with all the apps simultaneously as the location data for the entire device is spoofed.
 
-To spoof the location, do the following:
+<b>To spoof the location, do the following:</b>
 
 1. Clone/Download the given repo to your PC.
 2. Open the 'fakegps.xcodeproj' file.
 3. Change the bundle identifier as per your choice and sign the app by assigning a team.
-4. Using the Navigator, open 'fakegps.gpx' file and update the values in Line 9, 10 and 19
-5. Enter the latitude and longitude of the location you want to spoof to in Line 9 
-   eg: <wpt lat="28.637323" lon="77.327680">
-6. Enter a name to identify the location in Line 10
-   eg: <name>Radisson Blu Kaushambi Delhi NCR</name>
-7. Update the time and date to a few mintes past the current time as the location would be spoofed at the mentioned time.
-   Make these changes in Line 19.
-   eg: <time>2017-10-15T16:12:00Z</time>
-8. Run the app on your iOS device via Xcode.
+4. Using the Navigator, open 'fakegps.gpx' file and update the values in Line 9, 10 and 19 <br>
+   i. Enter the latitude and longitude of the location you want to spoof to in Line 9 <br>
+      &ensp; eg: <i> &lt;wpt lat="28.637323" lon="77.327680"> </i> <br>
+   ii. Enter a name to identify the location in Line 10 <br>
+      &ensp; eg: <i> &lt;name>Radisson Blu Kaushambi Delhi NCR&lt;/name> </i> <br>
+   iii. Update the time and date to a few mintes past the current time as the location would be spoofed at the mentioned time.<br>
+      &ensp; Make these changes in Line 19.<br>
+      &ensp; eg: <i> &lt;time>2017-10-15T16:12:00Z&lt;/time> </i> <br>
+5. Run the app on your iOS device via Xcode.
   
-  Note# If this is your first app installed on the iOS device with that Developer Certificate, you will need to Trust the    Profile by going to Settings> General> Device Management> Select your Developer Profile> Trust> Trust.
+  <b>Note#</b> If this is your first app installed on the iOS device with that Developer Certificate, you will need to Trust the    Profile by going to Settings> General> Device Management> Select your Developer Profile> Trust> Trust.
   
 9. In Xcode menu, select Debug> Simulate Location> fakegps.  
 10. Now at the time mentioned in 'fakegps.gpx' file, the location would be spoofed.
