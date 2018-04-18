@@ -23,11 +23,11 @@ This method works with all the apps simultaneously as the location data for the 
   
   <b>Note#</b> If this is your first app installed on the iOS device with that Developer Certificate, you will need to Trust the    Profile by going to Settings> General> Device Management> Select your Developer Profile> Trust> Trust.
   
-9. In Xcode menu, select Debug> Simulate Location> fakegps.  
-10. Now at the time mentioned in 'fakegps.gpx' file, the location would be spoofed.
+6. In Xcode menu, select Debug> Simulate Location> fakegps.  
+7. Now at the time mentioned in 'fakegps.gpx' file, the location would be spoofed.
   
   
-Even if you disconnect the device from your Mac, the location would remain spoofed.
+Even if you disconnect the device from your Mac, the location would remain spoofed for some time.
 
 To remove Location spoofing immediately, restart your device after quitting the fakegps app.
 
